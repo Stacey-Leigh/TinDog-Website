@@ -1,0 +1,241 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #636262;
+}
+
+
+/*Headings*/
+.big-heading {
+    font-family: Montserrat, sans-serif;
+    font-size: 3.2rem; /*3rem*/
+    line-height: 1.5;
+    font-weight: 900;
+
+    padding-left: 15px;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 2% 12%;  /*3% 15%*/
+}
+
+.download-btn {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.iphone-dog-img {
+    margin-left: 86px;
+
+    width: 58%; /* 60% */
+    transform: rotate(25deg);
+}
+
+
+
+
+/*Navigation Bar*/
+
+.navbar {
+    padding-bottom: 4.5rem ;
+}
+
+.navbar-brand {
+    font-family: Ubuntu, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+
+/*Features section*/
+#features {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    background-color: white;
+}
+
+.feature-title {
+    font-size: 1.2rem;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-icons {
+    color: #f34d4d;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+
+
+
+
+/*Testimonial section*/
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #f34d4d;
+    color: #fff;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.prev-icon {
+    padding-right: 200px;
+}
+
+.next-icon {
+    padding-left: 200px;
+}
+
+
+
+
+
+/*Press section*/
+#press {
+    background-color: #f34d4d;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+
+/*Pricing section*/
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/*Call to action section*/
+#cta {
+    background-color: #f34d4d;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.call-to-action-h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+
+
+/*Footer section*/
+#footer {
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;  
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+/*Media query*/
+/*Mobile mode*/
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone-dog-img {
+        position: static;
+        margin-top: 25px;
+        transform: rotate(0);
+        margin-right: 69px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
